@@ -1,0 +1,69 @@
+Script started on 2021-10-05 14:55:50-07:00 [TERM="xterm-256color" TTY="/dev/pts/1" COLUMNS="118" LINES="55"]
+]777;notify;Command completed;exit\]0;006347766@csusb.edu@jb359-7:~/CSE4600/HW2\]7;file://jb359-7.cse.csusb.edu/home/csusb.edu/006347766/CSE4600/HW2\[006347766@csusb.edu@jb359-7 HW2]$ exit./hw02 
+myshell > help
+Stephen Brennan's LSH
+Type program names and arguments, and hit enter.
+The following are built in:
+  cd
+  help
+  exit
+  setshellname
+  setterminator
+  newname
+  listnewnames
+  savenewnames
+  readnewnames
+Use the man command for information on other programs.
+myshell > ls -l
+total 58
+-rwxr-xr-x 1 006347766@csusb.edu domain users@csusb.edu 24720 Oct  5 14:54 hw02
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 11785 Oct  5 14:47 hw02backup.c
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 12055 Oct  5 14:54 hw02.c
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu     0 Oct  5  2021 hw02log.txt
+myshell > setshellname mysh
+mysh > seterminator $
+lsh: No such file or directory
+mysh > setterminator $
+mysh $ newname myhelp help
+mysh $ newname e mycopy cp
+mysh $ newname mycat cat
+mysh $ m newname mydel rm
+mysh $ sace  vew newnames myaliases
+mysh $ listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rm
+mysh $ mycat myaliases
+myhelp
+mycopy
+mycat
+mydel
+mysh $ mycopy myaliases myfile
+mysh $ mycat myfile
+myhelp
+mycopy
+mycat
+mydel
+mysh $ ls  cat myful  ii le
+myhelp
+mycopy
+mycat
+mydel
+mysh $ ls
+hw02  hw02backup.c  hw02.c  hw02log.txt  myaliases  myfile
+mysh $ List    listnewnames
+myhelp help
+mycopy cp
+mycat cat
+mydel rm
+mysh $ readnewnames myaliases
+myhelp
+mycopy
+mycat
+mydel
+mysh $ exit
+]777;notify;Command completed;./hw02 \]0;006347766@csusb.edu@jb359-7:~/CSE4600/HW2\]7;file://jb359-7.cse.csusb.edu/home/csusb.edu/006347766/CSE4600/HW2\[006347766@csusb.edu@jb359-7 HW2]$ exit
+exit
+
+Script done on 2021-10-05 14:58:31-07:00 [COMMAND_EXIT_CODE="0"]

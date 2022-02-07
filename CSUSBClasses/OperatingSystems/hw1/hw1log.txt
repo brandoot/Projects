@@ -1,0 +1,56 @@
+Script started on 2021-09-09 16:35:28-07:00 [TERM="xterm" TTY="/dev/pts/0" COLUMNS="89" LINES="51"]
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ rm -r backup
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ ls -l
+total 12
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  37 Sep  9 16:31 a.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  27 Sep  9 16:34 b.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu   0 Sep  9 16:35 hw1log.txt
+-rwxr-xr-x 1 006347766@csusb.edu domain users@csusb.edu 340 Sep  9 16:32 [0m[01;32mhw1.sh[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  17 Sep  3 17:52 z.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ to[K[Kls -lrm -r backup[8Pexitls -l./hw1.sh[3Pls -l./hw1.sh
+Please enter name for backup directory
+backup
+Backup doesn't exist, creating one.
+Creating backup for a.cpp...
+Creating backup for b.cpp...
+Creating backup for z.cpp...
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ ls -l
+total 12
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  37 Sep  9 16:31 a.cpp
+drwxr-xr-x 2 006347766@csusb.edu domain users@csusb.edu   5 Sep  9 16:35 [0m[01;34mbackup[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  27 Sep  9 16:34 b.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu   0 Sep  9 16:35 hw1log.txt
+-rwxr-xr-x 1 006347766@csusb.edu domain users@csusb.edu 340 Sep  9 16:32 [01;32mhw1.sh[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  17 Sep  3 17:52 z.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ touch new.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ echo "something" >> new.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ echo "elevent[K" >> z.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ echo "eleven" >> z.cppsomething" >> new.cpp[14Ptouch[C[C[C[C[C[C[C[C[8Pls -l./hw1.sh
+Please enter name for backup directory
+backup
+Backup exist.
+No backup 
+No backup 
+Creating backup for new.cpp...
+Creating backup for z.cpp...
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ ls -l
+total 13
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  37 Sep  9 16:31 a.cpp
+drwxr-xr-x 2 006347766@csusb.edu domain users@csusb.edu   6 Sep  9 16:36 [0m[01;34mbackup[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  27 Sep  9 16:34 b.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu   0 Sep  9 16:35 hw1log.txt
+-rwxr-xr-x 1 006347766@csusb.edu domain users@csusb.edu 340 Sep  9 16:32 [01;32mhw1.sh[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  10 Sep  9 16:36 new.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  24 Sep  9 16:36 z.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ cat backup
+cat: backup: Is a directory
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ ls -l backup
+total 2
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 37 Sep  9 16:35 a.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 27 Sep  9 16:35 b.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 10 Sep  9 16:36 new.cpp
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 24 Sep  9 16:36 z.cpp
+]0;006347766@csusb.edu@jb358-2:~/CSE4600/hw1[006347766@csusb.edu@jb358-2 hw1]$ exit
+exit
+
+Script done on 2021-09-09 16:37:06-07:00 [COMMAND_EXIT_CODE="0"]

@@ -1,0 +1,5 @@
+Script started on 2021-10-05 21:27:34-07:00
+]0;006347766@csusb.edu@jbh3-1:~/CSE4600/HW2[006347766@csusb.edu@jbh3-1 HW2]$ exit
+exit
+
+Script done on 2021-10-05 21:27:40-07:00

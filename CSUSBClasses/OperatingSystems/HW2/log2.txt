@@ -1,0 +1,32 @@
+Script started on 2021-10-05 21:28:04-07:00
+]0;006347766@csusb.edu@jbh3-1:~/CSE4600/HW2[006347766@csusb.edu@jbh3-1 HW2]$ exit[Kls -l
+total 87
+-rwxr-xr-x 1 006347766@csusb.edu domain users@csusb.edu 24720 Oct  5 14:54 [0m[01;32mhw02[0m
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 11785 Oct  5 14:47 hw02backup.c
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu 12055 Oct  5 14:54 hw02.c
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu   898 Oct  5 15:04 hw02error.txt
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu  2007 Oct  5 15:00 hw02log.txt
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu   177 Oct  5  2021 log1.txt
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu     0 Oct  5  2021 log2.txt
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu    26 Oct  5 14:59 myaliases
+-rw-r--r-- 1 006347766@csusb.edu domain users@csusb.edu    26 Oct  5 14:59 myfile
+]0;006347766@csusb.edu@jbh3-1:~/CSE4600/HW2[006347766@csusb.edu@jbh3-1 HW2]$ ls -l[1Pexitscript hw02error.txtexit[Kls -l[K./hw02 
+myshell > help
+Stephen Brennan's LSH
+Type program names and arguments, and hit enter.
+The following are built in:
+  cd
+  help
+  exit
+  setshellname
+  setterminator
+  newname
+  listnewnames
+  savenewnames
+  readnewnames
+Use the man command for information on other programs.
+myshell > exit
+]0;006347766@csusb.edu@jbh3-1:~/CSE4600/HW2[006347766@csusb.edu@jbh3-1 HW2]$ exit
+exit
+
+Script done on 2021-10-05 21:28:23-07:00

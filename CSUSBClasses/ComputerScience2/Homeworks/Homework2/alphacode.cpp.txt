@@ -1,0 +1,11 @@
+
+vector<char> alphacode()
+{// This returns a vector containing the alphabet a-z and " "
+ vector<char> temp;
+ for (char c='A'; c<='Z'; c++)
+      temp.push_back(c);
+ temp.push_back(' ');
+ temp.push_back('.');
+ return temp;
+}
+

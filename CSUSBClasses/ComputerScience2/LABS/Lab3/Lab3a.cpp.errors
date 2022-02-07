@@ -1,0 +1,8 @@
+Lab3a.cpp: In function ‘int ccc_win_main()’:
+Lab3a.cpp:68:11: error: expected ‘)’ before ‘!’ token
+  while(alt!<0)
+       ~   ^
+           )
+Lab3a.cpp:68:12: error: expected primary-expression before ‘<’ token
+  while(alt!<0)
+            ^

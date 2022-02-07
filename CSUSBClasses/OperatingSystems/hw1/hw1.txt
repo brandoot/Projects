@@ -1,0 +1,22 @@
+#!/bin/bash
+#file: hw1.sh
+
+echo "Please enter name for backup directory"
+read BAK
+if [ -d $BAK ]; then
+	echo "Backup exist."
+else
+	echo "Backup doesn't exist, creating one."
+	mkdir $BAK
+fi
+for i in *.cpp
+do
+	cmp -s $i $BAK/$i
+	if [ $? -eq 0 ]
+       	then
+		echo "No backup "
+	else
+		echo "Creating backup for $i..."
+		cp $i $BAK/
+	fi
+done
